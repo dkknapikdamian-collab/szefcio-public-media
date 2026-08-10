@@ -1,0 +1,11 @@
+{
+  "schema_version": 2,
+  "repository": "dkknapikdamian-collab/szefcio-public-media",
+  "project_id": null,
+  "status": "CAPABILITY_REPOSITORY_FAIL_CLOSED",
+  "current_workflow": {"id":"DOCSYS_MEDIA_CAPABILITY_FAIL_CLOSED","kind":"DOCUMENTATION_STAGE","status":"CAPABILITY_REPOSITORY_FAIL_CLOSED","contract_path":"docs/stages/DOCSYS_MEDIA_CAPABILITY_FAIL_CLOSED.md"},
+  "next_workflow": {"id":null,"status":"LOCKED_PENDING_EXPLICIT_OWNER_APPROVED_SCOPE"},
+  "allowed_actions": ["READ_ONLY_MEDIA_INVENTORY","DOCUMENTATION_ONLY_ROUTING_REPAIR"],
+  "forbidden_actions": ["UNSCOPED_PRODUCT_CHANGE","RUNTIME_CHANGE","DEPENDENCY_CHANGE","DEPLOYMENT_LOGIC_CHANGE","CANONICAL_PROJECT_CREATION"],
+  "guardian_required": "AI_CODE_GUARDIAN_REQUIRED=YES_FOR_CODE_TASKS"
+}
