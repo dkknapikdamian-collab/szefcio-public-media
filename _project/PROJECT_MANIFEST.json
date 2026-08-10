@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "repository": "dkknapikdamian-collab/szefcio-public-media",
+  "repository_class": "CAPABILITY_REPOSITORY",
+  "project_class": ["CAPABILITY_REPOSITORY", "MEDIA_SERVICE"],
+  "project_id": null,
+  "routing_status": "NO_OBSIDIAN_PROJECT_NEEDED_FAIL_CLOSED",
+  "canonical_branch": "main",
+  "workflow_state": "_project/WORKFLOW_STATE.json",
+  "document_ownership": "_project/DOCUMENT_OWNERSHIP.json",
+  "agent_capabilities": "_project/AGENT_CAPABILITIES.json",
+  "obsidian": {"project_registry":"00_SYSTEM/PROJECTS.json","router_required":false,"project_entry":null,"source_of_truth_status":"NO_OBSIDIAN_PROJECT_NEEDED"},
+  "classification_evidence": "README describes a temporary shared SZEFCIO public media URL repository"
+}

@@ -1,25 +1,24 @@
-# DOCSYS-V1 documentation repository router
+# AGENTS.md — SZEFCIO Public Media capability repository
 
-Repo: dkknapikdamian-collab/szefcio-public-media
-Canonical branch: main
-Preliminary class: BUSINESS_OR_KNOWLEDGE
-Status: ACTIVE / READ_ONLY_ROUTING_REQUIRED
+```text
+REPOSITORY=dkknapikdamian-collab/szefcio-public-media
+REPOSITORY_CLASS=CAPABILITY_REPOSITORY
+PROJECT_ID=null
+OBSIDIAN_PROJECT_ID=null
+CANONICAL_BRANCH=main
+```
 
 ## READ_FIRST
 
-1. AGENTS.md
-2. Existing repository README and the minimum project/context documents named there.
-3. The canonical Obsidian router after global DOCSYS routing confirms the project owner.
+1. `_project/PROJECT_MANIFEST.json`.
+2. Classify the task.
+3. `_project/AGENT_CAPABILITIES.json`.
+4. `_project/WORKFLOW_STATE.json` when workflow context is required.
+5. Exactly `current_workflow.contract_path`.
+6. README/media inventory only as required by the task.
 
-## Ownership and safety
+This repository is a shared public-media capability, not a standalone canonical Obsidian project. Do not infer a project owner from filenames, consumers, or the SZEFCIO prefix.
 
-- This repository is documentation, business knowledge, metadata or media; it is not assigned an application workflow by this marker.
-- Do not invent a project_id, Obsidian destination, stage, next step or owner.
-- No bulk scan, deduplication, deletion or rename is authorized by this marker.
-- No product/runtime/dependency/deployment changes are allowed in the DOCSYS bootstrap.
-- If a code or executable scope is introduced, re-route the repository and set AI_CODE_GUARDIAN_REQUIRED=YES before code work.
-- Canonical Obsidian writes require the global router and documented ownership; this repository may propose updates only.
+Code/security/release/refactor/API/database/technical implementation task classes require AI Code Guardian; required capability unavailable means `BLOCKED_REQUIRED_CAPABILITY_UNAVAILABLE`. Read-only media inventory, business analysis and pure wiki work do not require Guardian by default.
 
-## Fail-closed route
-
-Until the global router assigns a canonical owner, treat workflow state as UNKNOWN_REQUIRES_REVIEW and preserve all existing material.
+Do not store current SHA, PR, deployment or stage snapshots here. Do not create a project_id or Obsidian project without owner-backed identity evidence.

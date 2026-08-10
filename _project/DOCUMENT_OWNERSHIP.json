@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "repository": "dkknapikdamian-collab/szefcio-public-media",
+  "project_id": null,
+  "ownership": {
+    "repository_identity": "00_SYSTEM/PROJECTS.json",
+    "repository_bootstrap": "AGENTS.md",
+    "technical_workflow": "_project/WORKFLOW_STATE.json",
+    "capability_routing": "_project/AGENT_CAPABILITIES.json",
+    "media_content": "repository"
+  },
+  "obsidian_project_sot": "NOT_APPLICABLE_NO_CANONICAL_PROJECT"
+}
